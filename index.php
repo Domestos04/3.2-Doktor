@@ -1,6 +1,6 @@
 <?php
  $x = rand(360, 410)/10;
-    echo "<span style = \"color: MediumSlateBlue ;\">температура: </span>"."   ".  $x;
+    echo "<span style = \"color: MediumSlateBlue ;\">температура: </span>". $x. " ";
 
     if($x < 37.7){
         echo "Здоров!";
